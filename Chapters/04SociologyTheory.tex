@@ -1,5 +1,122 @@
-This chapter will contain all the relevant theory on humans, humans behavior and more which help drive the dynamics of the DHT model. This chapter is heavily inspired by my project thesis "Beliefs and the Propagation of Misinformation in Social Networks" at NTNU in 2025 \cite{project_thesis}. Specifically, this chapter is inspired by subsections 2.1-2.5 "Existing Literature". 
+This chapter will contain the relevant theory of psychological effects, human behavior, and sociology which help drive the dynamics of the Distributed Hypothesis Testing (DHT) model. It is heavily inspired by, and builds upon my project thesis "Beliefs and the Propagation of Misinformation in Social Networks" at NTNU in 2025 \cite{project_thesis}, specifically sections 2.1-2.5 "Existing Literature".
 
-That section covers a lot of the literature that was researched for the project thesis, relevant to the model or not. This chapter will mostly contain the topics related to the numerical model and simulations.
+This chapter is split into two main parts. The first section \ref{sec:misinformation-and-human-behavior} presents the researched literature from sociology and psychology related to misinformation and belief dynamics. It presents psychological and sociological effects and aspect which drive misinformation propagation, on both a collective and individual level. 
 
-\section{Social Science and Psychology and Misinformation}
+The second section connects the chosen behavioral insights from the first section into the DHT model used in this thesis. It explains how human behavior, such as non-Bayesian belief updating, confirmation bias, and flexibility in belief change, are included in the model. The section will reason for the choices and that they will make the model more fit to simulate misinformation propagation. 
+
+\section{Misinformation and Human Behavior}\label{sec:misinformation-and-human-behavior}
+
+The literature presented in this section is on the topic of misinformation through the lens of sociology and psychology. That is, what kind of human behavior affects the spread of misinformation, both on an individual and on a group level. To be able to model misinformation in a satisfactory way, it is important to understand what misinformation is, how it spreads, how it dies down, and how humans affect the propagation. The literature showcased in this section has been chosen as they cover and represent research on different aspects of misinformation. 
+
+\subsection{Disinformation Campaigns and Polarization}
+\begin{itemize}
+    \item Disinformation is often collaborative; users unintentionally amplify false narratives.
+    \item {starbird2019} present three case studies:
+    \begin{itemize}
+        \item The Internet Research Agency's social media campaigns before the 2016 U.S. election.
+        \item Discrediting of the White Helmets during the Syrian Civil War.
+        \item Crisis-event conspiracy theories and alternative media reinforcement.
+    \end{itemize}
+    \item Polarization weakens trust in institutions and impedes constructive discourse.
+    \item Polarized networks become resistant to factual correction (low flexibility).
+\end{itemize}
+
+\textbf{Citations:} {starbird2019}; {bail2018}.
+
+\subsection{Belief Updating and the Backfire Effect}
+\begin{itemize}
+    \item {nyhan2010} introduced the \textit{backfire effect}: corrections can strengthen false beliefs.
+    \item Later studies show the effect is overstated; fact-checking works short-term but fades ({nyhan2021}).
+    \item Demonstrates the need to include a parameter for belief flexibility/inertia.
+\end{itemize}
+
+\textbf{Citations:} {nyhan2010}; {nyhan2021}.
+
+\subsection{Flexibility and Belief Change}
+\textcolor{red}{Conclusion with flexibility. It is very important that flexibility 1 makes the system deterministic. Having flexibility includes the history in beliefs for the agents. Yay! With flexibility 1 the system can oscillate between two solutions. Stiffness.}
+\begin{itemize}
+    \item \textbf{Psychological flexibility:} ability to adapt thoughts and actions to new evidence ({kashdan2010}).
+    \item Low flexibility (rigidity) $\Rightarrow$ belief inertia, persistence of misinformation ({westhoff2024}).
+    \item \textbf{Cognitive flexibility / Actively Open-Minded Thinking (AOT):} willingness to evaluate and revise beliefs ({stanovich2023}).
+    \item Neurological evidence: flexible individuals integrate contradictory information more effectively ({romero2022}).
+    \item Flexibility corresponds to parameter $\psi_i$ controlling belief update magnitude.
+\end{itemize}
+
+\textbf{Citations:} {kashdan2010}; {westhoff2024}; {stanovich2023}; {romero2022}; {nyhan2010}.
+
+\subsection{Emotional Drivers, Bias, and Echo Chambers}
+\begin{itemize}
+    \item \textbf{Confirmation bias:} people seek and interpret confirming information ({nickerson1998}).
+    \item \textbf{Signal misinterpretation:} humans distort or underweight disconfirming evidence ({defilippis2021}).
+    \item \textbf{Motivated reasoning:} evidence processing biased by identity protection ({kunda1990}).
+    \item \textbf{Cognitive dissonance:} conflict between ideas leads to attitude reinforcement ({festinger1957}).
+    \item \textbf{Emotions:} high arousal strengthens rigidity and polarization ({altoe2022}).
+    \item These mechanisms reduce $\psi_i$ (flexibility) and $\phi_{ij}$ (trust in differing neighbors) $\Rightarrow$ echo chambers.
+\end{itemize}
+
+\textbf{Citations:} {nickerson1998}; {defilippis2021}; {kunda1990}; {festinger1957}; {altoe2022}.
+
+\subsection{Combating Misinformation: Correction, Education, and Flexibility}
+\begin{itemize}
+    \item \textbf{Fact-checking:} corrects false beliefs temporarily ({nyhan2021}).
+    \item \textbf{Scientific literacy \& critical thinking:} correlate with lower conspiracy belief ({fasce2019}).
+    \item Attitude toward critical thinking matters as much as ability.
+    \item \textbf{Influencers and audience capture:} social incentives discourage opinion change ({jurg2020}).
+    \item \textbf{Building flexibility:} open-mindedness and repeated correction yield more durable resistance.
+\end{itemize}
+
+\textbf{Citations:} {nyhan2021}; {fasce2019}; {jurg2020}; {kashdan2010}; {westhoff2024}.
+
+\subsection{Summary of Behavioral Insights}
+\begin{itemize}
+    \item Misinformation persists due to limited flexibility, emotional reinforcement, and biased signal interpretation.
+    \item Corrective information decays unless reinforced through repetition or affective framing.
+    \item Polarization and echo chambers arise from low $\psi_i$ (flexibility) and low $\phi_{ij}$ (cross-group trust).
+    \item These mechanisms justify extending DHT with parameters for bias, misinterpretation, and belief inertia.
+\end{itemize}
+
+\section{The Distributed Hypothesis Model and Human Behavior}
+
+\subsection{Classical DHT Models}
+\begin{itemize}
+    \item Agents exchange beliefs using Bayesian likelihoods and consensus rules.
+    \item Assumes rational, unbiased signal interpretation.
+    \item Convergence to the true hypothesis is exponential under these assumptions.
+\end{itemize}
+
+\textbf{Citations:} {blum1997}; {nedic2017}.
+
+\subsection{Adapting DHT to Human Agents: Bias, Misinterpretation, and Flexibility}
+\begin{itemize}
+    \item Humans interpret contradictory evidence non-Bayesianly ({defilippis2021}).
+    \item \textbf{Signal misinterpretation:} down-weighting of disconfirming information.
+    \item \textbf{Confirmation bias:} reduced influence of disagreeing neighbors ({nickerson1998}).
+    \item \textbf{Flexibility parameter} $\psi_i$: degree to which beliefs update.
+    \item \textbf{Interpersonal weight} $\phi_{ij}$: trust or openness to others.
+    \item Together, these parameters simulate realistic opinion dynamics.
+\end{itemize}
+
+\textbf{Citations:} {defilippis2021}; {nickerson1998}; {kashdan2010}; {westhoff2024}.
+
+\subsection{Implications for Misinformation Dynamics}
+\begin{itemize}
+    \item Low $\psi_i$ (inflexibility) $\Rightarrow$ belief inertia and slow convergence.
+    \item High confirmation bias (low $\phi_{ij}$) $\Rightarrow$ polarization and echo chambers.
+    \item Signal misinterpretation $\Rightarrow$ persistence of misinformation despite correction.
+    \item Increasing $\psi_i$ (flexibility) or $\phi_{ij}$ (trust) improves collective accuracy.
+\end{itemize}
+
+\textbf{Citations:} {nyhan2010}; {defilippis2021}; {kashdan2010}; {westhoff2024}.
+
+\section{Summary and Transition}
+\begin{itemize}
+    \item Misinformation and polarization stem from psychological limits in belief updating.
+    \item Classical DHT assumes rational agents; human agents deviate through bias and inertia.
+    \item The extended model includes:
+    \begin{itemize}
+        \item \textbf{Confirmation bias} ($\phi_{ij}$) --- selective trust in information sources.
+        \item \textbf{Signal misinterpretation} --- non-Bayesian weighting of evidence.
+        \item \textbf{Belief flexibility} ($\psi_i$) --- inertia or readiness to change beliefs.
+    \end{itemize}
+    \item These components provide a realistic behavioral foundation for the simulation results in Chapter~\ref{chap:results}.
+\end{itemize}

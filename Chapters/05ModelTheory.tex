@@ -1,5 +1,5 @@
 
-This chapter will contain all the relevant theory of the Distributed Hypothesis Testing (DHT) model, not including graphs or sociology. The model is applied on a network or graph of nodes, which are able to interact. First, I will introduce the developments of the model since its inception, then I will define it as it has been used for this Master thesis (with relevant constraints). Lastly I will present the algorithms which have been used and any potential differences from the project thesis preceding this Master thesis.
+This chapter will contain all the relevant theory of the Distributed Hypothesis Testing (DHT) model, not including graphs or sociology. The model is applied on a network or graph of nodes, which are able to interact. First, I will introduce the developments of the model since its inception, then I will define it as it has been used for this master's thesis (with relevant constraints). Lastly I will present the algorithms which have been used and any potential differences from the project thesis preceding this master's thesis.
 
 This chapter is inspired by my project thesis "Beliefs and the Propagation of Misinformation in Social Networks" at NTNU in 2025 \cite{project_thesis} (specifically section 3.2), Diana Riazi's papers and PhD thesis \cites{RiaziPublicAndPrivateBeliefsUnderDisinformation}{riazi2024fightspreadfakenews}{RiaziMitigatingDisinformation}{riazi2025phd}, and the paper on the DHT model by Anusha Lalitha et al. \cite{Social_Learning_and_Distributed_Hypothesis_Testing}. 
 
@@ -9,10 +9,34 @@ This section contains a brief history of developments of the DHT model from its 
 
 The earliest work done on the subject was motivated by the fact that in a distributed sensor network, it can be costly or inefficient to make all sensors communicate with a central hub. Thus, the sensors must be able to process signals themselves using an optimal decision rule. Tenney et al. created a model based on the formulation of decentralized hypothesis testing \cite{tenney1981detectionwithdistributedsensors}. They found that the optimal decision rule is that the sensors perform likelihood ratio tests on the statistically independent observations they make. 
 
-Over the following decades, research further developing the model was mostly concerned on distributed sensor networks. By minimizing loss, Firooz determined the structure of the optimal decision rule given an arbitrary number of sensors and hypothesis \cite{4104192}. Viswanathan et al. made a review study of the entire filed in 1997 \cite{554208}. In 2004 Alanyali et al. applied belief propagation, and thus interaction between sensors, to make the network reach a consensus concerning an observation \cite{1384706}. Halme et al. included spatial dependency in the model \cite{8755597}. 
+Over the following decades, research further developing the model was mostly concerned on distributed sensor networks. Firooz determined the structure of the optimal decision rule given an arbitrary number of sensors and hypothesis \cite{4104192}. Viswanathan et al. made a review study of the field in 1997 \cite{554208}. In 2004 Alanyali et al. applied belief propagation, and thus interaction between sensors, to make the network reach a consensus concerning an observation \cite{1384706}. Halme et al. included spatial dependency in the model \cite{8755597}. 
 
-In 2014 (and revised in 2018), Lalitha et al. published "Social Learning and Distributed Hypothesis Testing" \cite{Social_Learning_and_Distributed_Hypothesis_Testing}. This paper included social learning in the DHT model, implying that the nodes in the network interact in such a way that they can learn from each other. Lalitha et al. introduced the notion of public and private beliefs, such that interactions between nodes happened through public beliefs. These were formed by a bayesian update of private beliefs using likelihood functions made from observations. This formulation of the model was inteded to be used on directed graphs.
+In 2014 (and revised in 2018), Lalitha et al. published "Social Learning and Distributed Hypothesis Testing" \cite{Social_Learning_and_Distributed_Hypothesis_Testing}. This paper included social learning in the DHT model, implying that the nodes in the network interact in such a way that they can learn from each other. Lalitha et al. introduced the notion of public and private beliefs, such that interactions between nodes happened through public beliefs. These were formed by a Bayesian update of private beliefs using likelihood functions made from observations. This formulation of the model was intended to be used on directed graphs.
 
-In 2024 and 2025, Diana Riazi published three papers with her PhD thesis using the DHT model to simulate misinformation propagation in social networks \cites{RiaziPublicAndPrivateBeliefsUnderDisinformation}{riazi2024fightspreadfakenews}{RiaziMitigatingDisinformation}{riazi2025phd}. This is the first and, so far, only study using the DHT model to simulate propagation of beliefs in a network consisting of humans. The mathematical formulation will be presented in section \ref{}.
+In 2024 and 2025, Diana Riazi published three papers with her PhD thesis using the DHT model to simulate misinformation propagation in social networks \cites{RiaziPublicAndPrivateBeliefsUnderDisinformation}{riazi2024fightspreadfakenews}{RiaziMitigatingDisinformation}{riazi2025phd}. This is the first and, so far, only study using the DHT model to simulate propagation of beliefs in a network consisting of humans. The mathematical formulation will be presented in section \ref{sec:DHT-math-formulation}.
 
-\section{Differences from project thesis}
+\section{Mathematical Formulation}\label{sec:DHT-math-formulation}
+
+This section will provide the full mathematical formulation of the DHT model used in this project. The methods for coding and the setups of the simulations will be presented in chapter \ref{chap:methods}. This section entails how the model works, on what it is applied, the updating algorithm, and the dynamics applied 
+
+The DHT model is applied on a graph (or network) consisting of nodes and edges (see section  for graph more on graphs). The networks utilized here are \textit{directed networks}, which 
+
+\section{Differences from Project Thesis}
+
+\begin{equation}
+    g(x, s) = \exp\left[ - \left( \frac{x-1}{s} \right)^2 \right]
+    \label{eq:new_confbias}
+\end{equation}
+
+\begin{equation}
+    smoid(x, a) = \frac{1}{1 + \exp\left[ -a(x - \frac12) \right]}
+    \label{eq:old_confbias}
+\end{equation}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/funcs/Confirmation_bias_strength.png}
+    \caption{The strength of confirmation bias which will be multiplied with weights to neighbors. The functions $g(x, s)$ and $smoid(x, a)$ refer to equations \ref{eq:new_confbias} and \ref{eq:old_confbias} respectively. $g(x, s)$ is the new representation of confirmation bias used here and $smoid(x, a)$ is the old representation used in the project thesis.}
+    \label{fig:confirmation_bias_strength}
+\end{figure}
+

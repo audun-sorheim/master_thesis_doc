@@ -16,5 +16,414 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{project_thesis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed2684d08f3003e560a56376e2335bcf}{%
+           family={Sørheim},
+           familyi={S\bibinitperiod},
+           given={Audun},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Norwegian University of Science}%
+        {Technology}%
+      }
+      \strng{namehash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{fullhash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{fullhashraw}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{bibnamehash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{authorbibnamehash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{authornamehash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{authorfullhash}{ed2684d08f3003e560a56376e2335bcf}
+      \strng{authorfullhashraw}{ed2684d08f3003e560a56376e2335bcf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beliefs and the Propagation of Misinformation in Social Networks}
+      \field{year}{2025}
+    \endentry
+    \entry{RiaziPublicAndPrivateBeliefsUnderDisinformation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4fc6a57f9ba69779f974c0c60f4adb13}{%
+           family={Riazi},
+           familyi={R\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=277aef0d9604087e8cfe97b920fab2a0}{%
+           family={Livan},
+           familyi={L\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{bibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorbibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authornamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{title}{Public and private beliefs under disinformation in social networks}
+      \field{volume}{637}
+      \field{year}{2024}
+      \field{pages}{129621}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physa.2024.129621
+      \endverb
+      \keyw{Opinion dynamics,Disinformation,Fake news,Social networks,Sociophysics,Agent based models}
+    \endentry
+    \entry{riazi2024fightspreadfakenews}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=4fc6a57f9ba69779f974c0c60f4adb13}{%
+           family={Riazi},
+           familyi={R\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=277aef0d9604087e8cfe97b920fab2a0}{%
+           family={Livan},
+           familyi={L\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{bibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorbibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authornamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.soc-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Who should fight the spread of fake news?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2410.08753
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2410.08753
+      \endverb
+    \endentry
+    \entry{RiaziMitigatingDisinformation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4fc6a57f9ba69779f974c0c60f4adb13}{%
+           family={Riazi},
+           familyi={R\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=277aef0d9604087e8cfe97b920fab2a0}{%
+           family={Livan},
+           familyi={L\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{fullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{bibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorbibnamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authornamehash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhash}{add2f51abb41dc3b3d29edf736f3be06}
+      \strng{authorfullhashraw}{add2f51abb41dc3b3d29edf736f3be06}
+      \field{extraname}{3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Complex Systems}
+      \field{month}{02}
+      \field{title}{Mitigating Disinformation in Social Networks through Noise}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1142/S0219525925500079
+      \endverb
+    \endentry
+    \entry{riazi2025phd}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=4fc6a57f9ba69779f974c0c60f4adb13}{%
+           family={Riazi},
+           familyi={R\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University College London}%
+      }
+      \strng{namehash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{fullhash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{fullhashraw}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{bibnamehash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{authorbibnamehash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{authornamehash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{authorfullhash}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \strng{authorfullhashraw}{4fc6a57f9ba69779f974c0c60f4adb13}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agent-based Models of Social Learning in Opinion Dynamics}
+      \field{type}{Ph.D. thesis}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://discovery.ucl.ac.uk/id/eprint/10205241/
+      \endverb
+      \verb{url}
+      \verb https://discovery.ucl.ac.uk/id/eprint/10205241/
+      \endverb
+    \endentry
+    \entry{Social_Learning_and_Distributed_Hypothesis_Testing}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=58ad7d25d9107bcc8540722dcf9fbbd8}{%
+           family={Lalitha},
+           familyi={L\bibinitperiod},
+           given={Anusha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d5aeed41b6ac502677981164d0e8d0cf}{%
+           family={Javidi},
+           familyi={J\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3ff382b000b20a67406b75143eb01d05}{%
+           family={Sarwate},
+           familyi={S\bibinitperiod},
+           given={Anand\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{fullhash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{fullhashraw}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{bibnamehash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{authorbibnamehash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{authornamehash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{authorfullhash}{2f85eacfd72881b092c29c5175c89cf5}
+      \strng{authorfullhashraw}{2f85eacfd72881b092c29c5175c89cf5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{number}{9}
+      \field{title}{Social Learning and Distributed Hypothesis Testing}
+      \field{volume}{64}
+      \field{year}{2018}
+      \field{pages}{6161\bibrangedash 6179}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/TIT.2018.2837050
+      \endverb
+      \keyw{Convergence;Estimation;Bayes methods;Testing;Message passing;Heuristic algorithms;Probability distribution;Distributed algorithms;message passing;rate of learning;large deviation principle}
+    \endentry
+    \entry{tenney1981detectionwithdistributedsensors}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2215fae2ec155fd99d1656f60b26e19d}{%
+           family={Tenney},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=462248a85bed4998ba465f888c9525e1}{%
+           family={Sandell},
+           familyi={S\bibinitperiod},
+           given={Nils\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{fullhash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{fullhashraw}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{bibnamehash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{authorbibnamehash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{authornamehash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{authorfullhash}{2abc9aa87af6a1fedba91267bd3280d5}
+      \strng{authorfullhashraw}{2abc9aa87af6a1fedba91267bd3280d5}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{number}{4}
+      \field{title}{Detection with distributed sensors}
+      \field{volume}{AES-17}
+      \field{year}{1981}
+      \field{pages}{501\bibrangedash 510}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TAES.1981.309178
+      \endverb
+    \endentry
+    \entry{4104192}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a734cb9171820fc9cf51c4ebe346f654}{%
+           family={Sadjadi},
+           familyi={S\bibinitperiod},
+           given={Firooz\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{fullhash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{fullhashraw}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{bibnamehash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{authorbibnamehash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{authornamehash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{authorfullhash}{a734cb9171820fc9cf51c4ebe346f654}
+      \strng{authorfullhashraw}{a734cb9171820fc9cf51c4ebe346f654}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
+      \field{number}{2}
+      \field{title}{Hypotheses Testing in a Distributed Environment}
+      \field{volume}{AES-22}
+      \field{year}{1986}
+      \field{pages}{134\bibrangedash 137}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/TAES.1986.310747
+      \endverb
+      \keyw{Testing;Random variables;Large-scale systems;Communication networks;Network topology;Delta modulation;Sensor systems;Decision theory;Propagation losses;System analysis and design}
+    \endentry
+    \entry{554208}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=82ec657023c21defcd5eaf22454243d7}{%
+           family={Viswanathan},
+           familyi={V\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bc01140cc7b0db26784b2a20eaf61504}{%
+           family={Varshney},
+           familyi={V\bibinitperiod},
+           given={P.K.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{fullhash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{fullhashraw}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{bibnamehash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{authorbibnamehash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{authornamehash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{authorfullhash}{4bcf3503f5d96f032f74fda7590571a7}
+      \strng{authorfullhashraw}{4bcf3503f5d96f032f74fda7590571a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{1}
+      \field{title}{Distributed detection with multiple sensors Part I. Fundamentals}
+      \field{volume}{85}
+      \field{year}{1997}
+      \field{pages}{54\bibrangedash 63}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/5.554208
+      \endverb
+      \keyw{Sensor fusion;Intelligent sensors;Radar detection;Infrared detectors;Sonar detection;Signal processing algorithms;Testing;Network topology;Signal processing;Costs}
+    \endentry
+    \entry{1384706}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=b010b8bc7c02836b5b2a802a2a9a344b}{%
+           family={Alanyali},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cf2c2ee952e89088d7db394b0046dbaa}{%
+           family={Venkatesh},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ffe1d14e091857c95d17109dacf91290}{%
+           family={Savas},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=8696f16bd4f2ab56303afd4a7db0a70a}{%
+           family={Aeron},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f12380dbb221dfa423709e4fa9a140d}
+      \strng{fullhash}{98fc7ffb9daa88a2ef808162a9d1dc61}
+      \strng{fullhashraw}{98fc7ffb9daa88a2ef808162a9d1dc61}
+      \strng{bibnamehash}{8f12380dbb221dfa423709e4fa9a140d}
+      \strng{authorbibnamehash}{8f12380dbb221dfa423709e4fa9a140d}
+      \strng{authornamehash}{8f12380dbb221dfa423709e4fa9a140d}
+      \strng{authorfullhash}{98fc7ffb9daa88a2ef808162a9d1dc61}
+      \strng{authorfullhashraw}{98fc7ffb9daa88a2ef808162a9d1dc61}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2004 American Control Conference}
+      \field{title}{Distributed Bayesian hypothesis testing in sensor networks}
+      \field{volume}{6}
+      \field{year}{2004}
+      \field{pages}{5369\bibrangedash 5374 vol.6}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.23919/ACC.2004.1384706
+      \endverb
+      \keyw{Bayesian methods;Testing;Intelligent networks;Wireless sensor networks;Sensor phenomena and characterization;Buildings;Evolution (biology);Real time systems;Safety;Power system control}
+    \endentry
+    \entry{8755597}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=76a2c9590be0f0c7f26f4fa19bb2a824}{%
+           family={Halme},
+           familyi={H\bibinitperiod},
+           given={Topi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9e86fe75193ca2c4256c1fb51b190821}{%
+           family={Gölz},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=80f454098d6ddef710eea72cf46b519a}{%
+           family={Koivunen},
+           familyi={K\bibinitperiod},
+           given={Visa},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{fullhash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{fullhashraw}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{bibnamehash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{authorbibnamehash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{authornamehash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{authorfullhash}{a155fa2ade9c6154325770f9bb177f0a}
+      \strng{authorfullhashraw}{a155fa2ade9c6154325770f9bb177f0a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Data Science Workshop (DSW)}
+      \field{title}{Bayesian Multiple Hypothesis Testing For Distributed Detection In Sensor Networks}
+      \field{year}{2019}
+      \field{pages}{105\bibrangedash 109}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/DSW.2019.8755597
+      \endverb
+      \keyw{Multiple Hypothesis Testing;Spatial Inference;Gaussian Processes;IoT;Sensor Networks}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
